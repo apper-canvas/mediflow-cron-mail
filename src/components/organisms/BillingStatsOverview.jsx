@@ -2,16 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Card from '@/components/molecules/Card';
 import StatDisplay from '@/components/molecules/StatDisplay';
-
-const BillingStatsOverview = ({ bills }) => {
-    const paidBillsCount = bills.filter(b => b.status === 'paid').length;
-    const pendingBillsCount = bills.filter(b => b.status === 'pending').length;
-    const totalRevenue = bills.filter(b => b.status === 'paid').reduce((sum, b) => sum + b.total, 0);
+import ApperIcon from '@/components/ApperIcon';
+const BillingStatsOverview = ({ bills = [] }) => {
+    const safeBills = bills || [];
+    const paidBillsCount = safeBills.filter(b => b?.status === 'paid').length;
+    const pendingBillsCount = safeBills.filter(b => b?.status === 'pending').length;
+    const totalRevenue = safeBills.filter(b => b?.status === 'paid').reduce((sum, b) => sum + (b?.total || 0), 0);
 
     const statData = [
         {
             label: 'Total Bills',
-            value: bills.length,
+            value: safeBills.length,
             icon: 'Receipt',
             color: 'text-primary',
             bgColor: 'bg-primary/10'
@@ -67,7 +68,7 @@ const BillingStatsOverview = ({ bills }) => {
 };
 
 BillingStatsOverview.propTypes = {
-    bills: PropTypes.array.isRequired,
+    bills: PropTypes.array,
 };
 
 export default BillingStatsOverview;
