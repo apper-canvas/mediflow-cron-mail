@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import Layout from './Layout'
-import { routes } from './config/routes'
-import NotFound from './pages/NotFound'
+import Layout from './Layout'; // Layout is a top-level component, not part of atomic design structure below components
+import { routes } from '@/config/routes';
+import NotFoundPage from '@/components/pages/NotFoundPage';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
                 index={route.path === '/'}
               />
             ))}
-            <Route path="*" element={<NotFound />} />
+<Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>
         

@@ -1,11 +1,11 @@
-import Home from '../pages/Home'
-import Dashboard from '../pages/Dashboard'
-import Appointments from '../pages/Appointments'
-import Patients from '../pages/Patients'
-import Doctors from '../pages/Doctors'
-import Billing from '../pages/Billing'
-import Prescriptions from '../pages/Prescriptions'
-import Settings from '../pages/Settings'
+import HomePage from '@/components/pages/HomePage';
+import DashboardPage from '@/components/pages/DashboardPage';
+import AppointmentsPage from '@/components/pages/AppointmentsPage';
+import PatientsPage from '@/components/pages/PatientsPage';
+import DoctorsPage from '@/components/pages/DoctorsPage';
+import BillingPage from '@/components/pages/BillingPage';
+import PrescriptionsPage from '@/components/pages/PrescriptionsPage';
+import SettingsPage from '@/components/pages/SettingsPage';
 
 export const routes = {
   home: {
@@ -13,56 +13,56 @@ export const routes = {
     label: 'Dashboard',
     path: '/',
     icon: 'LayoutDashboard',
-    component: Home
+component: HomePage
   },
   dashboard: {
     id: 'dashboard',
     label: 'Dashboard',
     path: '/dashboard',
     icon: 'LayoutDashboard',
-    component: Dashboard
+component: DashboardPage
   },
   appointments: {
     id: 'appointments',
     label: 'Appointments',
     path: '/appointments',
     icon: 'Calendar',
-    component: Appointments
+component: AppointmentsPage
   },
   patients: {
     id: 'patients',
     label: 'Patients',
     path: '/patients',
     icon: 'Users',
-    component: Patients
+component: PatientsPage
   },
   doctors: {
     id: 'doctors',
     label: 'Doctors',
     path: '/doctors',
     icon: 'UserCheck',
-    component: Doctors
+component: DoctorsPage
   },
   billing: {
     id: 'billing',
     label: 'Billing',
     path: '/billing',
     icon: 'Receipt',
-    component: Billing
+component: BillingPage
   },
   prescriptions: {
     id: 'prescriptions',
     label: 'Prescriptions',
     path: '/prescriptions',
     icon: 'FileText',
-    component: Prescriptions
+component: PrescriptionsPage
   },
   settings: {
     id: 'settings',
     label: 'Settings',
     path: '/settings',
     icon: 'Settings',
-    component: Settings
+component: SettingsPage
   }
 }
 
