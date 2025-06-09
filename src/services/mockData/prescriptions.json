@@ -1,0 +1,82 @@
+[
+  {
+    "id": "presc001",
+    "appointmentId": "apt001",
+    "patientId": "pat001",
+    "doctorId": "doc001",
+    "medications": [
+      {
+        "name": "Lisinopril",
+        "dosage": "10mg",
+        "duration": "30 days"
+      },
+      {
+        "name": "Metformin",
+        "dosage": "500mg twice daily",
+        "duration": "30 days"
+      }
+    ],
+    "diagnosis": "Hypertension and Type 2 Diabetes management",
+    "date": "2024-01-15"
+  },
+  {
+    "id": "presc002",
+    "appointmentId": "apt002",
+    "patientId": "pat002",
+    "doctorId": "doc002",
+    "medications": [
+      {
+        "name": "Ibuprofen",
+        "dosage": "400mg as needed",
+        "duration": "7 days"
+      },
+      {
+        "name": "Amoxicillin",
+        "dosage": "500mg three times daily",
+        "duration": "10 days"
+      }
+    ],
+    "diagnosis": "Post-operative care and infection prevention",
+    "date": "2024-01-15"
+  },
+  {
+    "id": "presc003",
+    "appointmentId": "apt003",
+    "patientId": "pat003",
+    "doctorId": "doc003",
+    "medications": [
+      {
+        "name": "Albuterol Inhaler",
+        "dosage": "2 puffs as needed",
+        "duration": "30 days"
+      },
+      {
+        "name": "Cetirizine",
+        "dosage": "10mg daily",
+        "duration": "30 days"
+      }
+    ],
+    "diagnosis": "Asthma and seasonal allergies management",
+    "date": "2024-01-16"
+  },
+  {
+    "id": "presc004",
+    "appointmentId": "apt005",
+    "patientId": "pat004",
+    "doctorId": "doc004",
+    "medications": [
+      {
+        "name": "Naproxen",
+        "dosage": "220mg twice daily",
+        "duration": "14 days"
+      },
+      {
+        "name": "Glucosamine",
+        "dosage": "1500mg daily",
+        "duration": "60 days"
+      }
+    ],
+    "diagnosis": "Joint pain and arthritis management",
+    "date": "2024-01-18"
+  }
+]

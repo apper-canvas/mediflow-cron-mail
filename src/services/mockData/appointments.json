@@ -1,0 +1,57 @@
+[
+  {
+    "id": "apt001",
+    "patientId": "pat001",
+    "doctorId": "doc001",
+    "date": "2024-01-15",
+    "time": "09:00",
+    "duration": 30,
+    "type": "consultation",
+    "status": "scheduled",
+    "notes": "Regular check-up for hypertension"
+  },
+  {
+    "id": "apt002",
+    "patientId": "pat002",
+    "doctorId": "doc002",
+    "date": "2024-01-15",
+    "time": "10:30",
+    "duration": 30,
+    "type": "follow-up",
+    "status": "completed",
+    "notes": "Post-surgery follow-up"
+  },
+  {
+    "id": "apt003",
+    "patientId": "pat003",
+    "doctorId": "doc003",
+    "date": "2024-01-16",
+    "time": "14:00",
+    "duration": 45,
+    "type": "routine",
+    "status": "scheduled",
+    "notes": "Annual physical examination"
+  },
+  {
+    "id": "apt004",
+    "patientId": "pat001",
+    "doctorId": "doc001",
+    "date": "2024-01-17",
+    "time": "11:00",
+    "duration": 30,
+    "type": "emergency",
+    "status": "cancelled",
+    "notes": "Chest pain evaluation - rescheduled"
+  },
+  {
+    "id": "apt005",
+    "patientId": "pat004",
+    "doctorId": "doc004",
+    "date": "2024-01-18",
+    "time": "15:30",
+    "duration": 60,
+    "type": "consultation",
+    "status": "scheduled",
+    "notes": "Initial consultation for joint pain"
+  }
+]

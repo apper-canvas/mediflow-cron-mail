@@ -1,0 +1,57 @@
+[
+  {
+    "id": "pat001",
+    "name": "Sarah Johnson",
+    "dateOfBirth": "1985-03-15",
+    "gender": "Female",
+    "email": "sarah.johnson@email.com",
+    "phone": "+1-555-0123",
+    "address": "123 Main Street, New York, NY 10001",
+    "medicalHistory": ["Hypertension", "Type 2 Diabetes"],
+    "bloodGroup": "A+"
+  },
+  {
+    "id": "pat002",
+    "name": "Michael Chen",
+    "dateOfBirth": "1978-07-22",
+    "gender": "Male",
+    "email": "michael.chen@email.com",
+    "phone": "+1-555-0124",
+    "address": "456 Oak Avenue, Los Angeles, CA 90210",
+    "medicalHistory": ["Appendectomy 2020", "Allergies (Penicillin)"],
+    "bloodGroup": "O-"
+  },
+  {
+    "id": "pat003",
+    "name": "Emily Rodriguez",
+    "dateOfBirth": "1992-11-08",
+    "gender": "Female",
+    "email": "emily.rodriguez@email.com",
+    "phone": "+1-555-0125",
+    "address": "789 Pine Street, Chicago, IL 60601",
+    "medicalHistory": ["Asthma", "Seasonal Allergies"],
+    "bloodGroup": "B+"
+  },
+  {
+    "id": "pat004",
+    "name": "David Thompson",
+    "dateOfBirth": "1965-05-30",
+    "gender": "Male",
+    "email": "david.thompson@email.com",
+    "phone": "+1-555-0126",
+    "address": "321 Elm Drive, Houston, TX 77001",
+    "medicalHistory": ["Arthritis", "High Cholesterol"],
+    "bloodGroup": "AB+"
+  },
+  {
+    "id": "pat005",
+    "name": "Jennifer Martinez",
+    "dateOfBirth": "1990-09-12",
+    "gender": "Female",
+    "email": "jennifer.martinez@email.com",
+    "phone": "+1-555-0127",
+    "address": "654 Maple Court, Phoenix, AZ 85001",
+    "medicalHistory": ["Migraine", "Anxiety"],
+    "bloodGroup": "A-"
+  }
+]

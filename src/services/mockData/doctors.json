@@ -1,0 +1,94 @@
+[
+  {
+    "id": "doc001",
+    "name": "James Wilson",
+    "specialization": "Cardiology",
+    "email": "dr.wilson@mediflow.com",
+    "phone": "+1-555-1001",
+    "availability": [
+      {
+        "day": "Monday",
+        "slots": ["09:00", "09:30", "10:00", "10:30", "11:00"]
+      },
+      {
+        "day": "Tuesday",
+        "slots": ["09:00", "09:30", "10:00", "10:30", "14:00", "14:30"]
+      },
+      {
+        "day": "Wednesday",
+        "slots": ["14:00", "14:30", "15:00", "15:30", "16:00"]
+      }
+    ],
+    "department": "Cardiology",
+    "status": "active"
+  },
+  {
+    "id": "doc002",
+    "name": "Maria Garcia",
+    "specialization": "General Surgery",
+    "email": "dr.garcia@mediflow.com",
+    "phone": "+1-555-1002",
+    "availability": [
+      {
+        "day": "Monday",
+        "slots": ["08:00", "08:30", "09:00", "15:00", "15:30"]
+      },
+      {
+        "day": "Thursday",
+        "slots": ["09:00", "09:30", "10:00", "10:30", "11:00"]
+      },
+      {
+        "day": "Friday",
+        "slots": ["14:00", "14:30", "15:00", "15:30"]
+      }
+    ],
+    "department": "Surgery",
+    "status": "active"
+  },
+  {
+    "id": "doc003",
+    "name": "Robert Davis",
+    "specialization": "Internal Medicine",
+    "email": "dr.davis@mediflow.com",
+    "phone": "+1-555-1003",
+    "availability": [
+      {
+        "day": "Tuesday",
+        "slots": ["10:00", "10:30", "11:00", "11:30"]
+      },
+      {
+        "day": "Wednesday",
+        "slots": ["09:00", "09:30", "10:00", "14:00", "14:30"]
+      },
+      {
+        "day": "Thursday",
+        "slots": ["15:00", "15:30", "16:00", "16:30"]
+      }
+    ],
+    "department": "Internal Medicine",
+    "status": "active"
+  },
+  {
+    "id": "doc004",
+    "name": "Lisa Brown",
+    "specialization": "Orthopedics",
+    "email": "dr.brown@mediflow.com",
+    "phone": "+1-555-1004",
+    "availability": [
+      {
+        "day": "Monday",
+        "slots": ["14:00", "14:30", "15:00", "15:30", "16:00"]
+      },
+      {
+        "day": "Wednesday",
+        "slots": ["08:30", "09:00", "09:30", "10:00"]
+      },
+      {
+        "day": "Friday",
+        "slots": ["10:00", "10:30", "11:00", "11:30", "14:00"]
+      }
+    ],
+    "department": "Orthopedics",
+    "status": "active"
+  }
+]

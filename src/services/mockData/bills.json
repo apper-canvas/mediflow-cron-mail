@@ -1,0 +1,112 @@
+[
+  {
+    "id": "bill001",
+    "patientId": "pat001",
+    "appointmentId": "apt001",
+    "items": [
+      {
+        "description": "Consultation Fee - Cardiology",
+        "amount": 150
+      },
+      {
+        "description": "Blood Pressure Monitoring",
+        "amount": 25
+      },
+      {
+        "description": "Prescription Medication",
+        "amount": 45
+      }
+    ],
+    "total": 220,
+    "status": "paid",
+    "date": "2024-01-15"
+  },
+  {
+    "id": "bill002",
+    "patientId": "pat002",
+    "appointmentId": "apt002",
+    "items": [
+      {
+        "description": "Post-Surgery Follow-up",
+        "amount": 120
+      },
+      {
+        "description": "Wound Care Supplies",
+        "amount": 35
+      },
+      {
+        "description": "Antibiotic Prescription",
+        "amount": 55
+      }
+    ],
+    "total": 210,
+    "status": "pending",
+    "date": "2024-01-15"
+  },
+  {
+    "id": "bill003",
+    "patientId": "pat003",
+    "appointmentId": "apt003",
+    "items": [
+      {
+        "description": "Annual Physical Examination",
+        "amount": 200
+      },
+      {
+        "description": "Blood Work Panel",
+        "amount": 85
+      },
+      {
+        "description": "Pulmonary Function Test",
+        "amount": 95
+      }
+    ],
+    "total": 380,
+    "status": "pending",
+    "date": "2024-01-16"
+  },
+  {
+    "id": "bill004",
+    "patientId": "pat004",
+    "appointmentId": "apt005",
+    "items": [
+      {
+        "description": "Orthopedic Consultation",
+        "amount": 180
+      },
+      {
+        "description": "X-Ray Imaging",
+        "amount": 120
+      },
+      {
+        "description": "Joint Injection",
+        "amount": 150
+      }
+    ],
+    "total": 450,
+    "status": "overdue",
+    "date": "2024-01-18"
+  },
+  {
+    "id": "bill005",
+    "patientId": "pat005",
+    "appointmentId": null,
+    "items": [
+      {
+        "description": "Emergency Room Visit",
+        "amount": 500
+      },
+      {
+        "description": "CT Scan",
+        "amount": 300
+      },
+      {
+        "description": "Pain Medication",
+        "amount": 65
+      }
+    ],
+    "total": 865,
+    "status": "pending",
+    "date": "2024-01-14"
+  }
+]
